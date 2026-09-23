@@ -101,12 +101,12 @@ this simple.
 
 Pretty much followed the brief task by task, one file per task basically:
 
-1. Parse the JSON manually — no pandas or anything, just `json.load`.
+1. Parse the JSON manually -: no pandas or anything, just `json.load`.
 2. For each package, find whichever agent starts closest to that package's
    warehouse and assign it there.
-3. Simulate the day — each agent works through their assigned packages,
+3. Simulate the day —: each agent works through their assigned packages,
    picking up and dropping off, and I track the distance as they go.
-4. Build the report — packages delivered, distance, efficiency per agent, and
+4. Build the report —: packages delivered, distance, efficiency per agent, and
    who the best one was.
 5. Then the bonus stuff: random delays, an ascii map so you can actually see
    the layout without matplotlib, handling a new agent showing up mid-day, and
