@@ -101,7 +101,7 @@ this simple.
 
 Pretty much followed the brief task by task, one file per task basically:
 
-1. Parse the JSON manually -: no pandas or anything, just `json.load`.
+1. Parse the JSON manually —: no pandas or anything, just `json.load`.
 2. For each package, find whichever agent starts closest to that package's
    warehouse and assign it there.
 3. Simulate the day —: each agent works through their assigned packages,
