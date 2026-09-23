@@ -139,10 +139,10 @@ The assignment says to make a reasonable call on anything ambiguous and document
 it instead of stopping to ask , so here's everything I had to decide on my own,
 same order they show up in the code:
 
-**1. Which agent position counts for assignment — start or current?**
+**1. Which agent position counts for assignment —: start or current?**
 I used each agent's starting position, not something that updates mid-way.
 If it updated as you assign packages, the result would depend on which order
-you happened to loop through the packages in, which felt wrong — assigning
+you happened to loop through the packages in, which felt wrong , assigning
 should be a one-time planning step before anyone actually moves.
 
 **2. Ties in distance.**
@@ -161,7 +161,7 @@ realistic than random ordering.
 
 **4. Random delays (bonus).**
 These only affect a separate `delay` field on the package, they don't touch
-`total_distance` — didn't want randomness messing with the actual graded
+`total_distance` , didn't want randomness messing with the actual graded
 numbers. Seed is fixed at 42 by default so it's reproducible, but you can
 override it with `--seed`.
 
